@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;1,200&family=Bebas+Neue&family=Montserrat:ital,wght@0,300;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@300&family=Teko:wght@300..700&display=swap');
+/* fonts: Archivo, Bebas Neue, Raleway, Montserrat, Open Sans, Teko */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(190, 230, 190);
+    text-wrap: nowrap;
+}
+
+.child{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+#right-items{
+    margin: 20px 20px 0px 140px;
+}
+
+#title-text{
+    padding: 35px 0px 0px 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: left;
+}
+
+#top-text{
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    margin-top: 0px;
+}
+
+.left-items{
+    display: flex;
+}
+
+#icon{
+    margin: 15px 15px 15px 50px;
+    width: 200px;
+    left: 0;
+    min-width: 200px;
+}
+
+#icon-text{
+    margin-top: 35px;
+    font-family: "Open Sans";
+    font-size: medium;
+}
+
+.flex-container{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: 20px;
+    /* shifts items on main access */
+    /* justify-content: space-around;
+    align-items: flex-start;*/
+}
+
+.item{
+    width: 450px;
+    height: 130px;
+    padding: 10px;
+    background-color: rgb(224, 224, 224);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.panel{
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+    background-color: #73a97a;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#panel2{
+    margin-right: 5px;
+    margin-left: 500px;
+}
+
+#panel3{
+    margin-top: 200px;
+}
+
+#panel4{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.a{
+    padding: 25px;
+    display: none;
+    text-wrap: wrap;
+}
+
+.sourcetext{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px 10px 10px 10px;
+    font-size: x-small;
+}

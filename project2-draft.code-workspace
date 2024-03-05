@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "jquery-starter-folder",
+			"path": "."
+		},
+		{
+			"path": "../project2-draft"
+		}
+	],
+	"settings": {}
+}
