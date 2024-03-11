@@ -129,3 +129,19 @@ body{
     max-width: 450px;
     padding-top: 8px;
 }
+
+.animate-text{
+    animation: editText 2s;
+}
+
+@keyframes editText{
+    0%{
+        color: #436947;
+    }
+    50%{
+        color: rgb(62, 96, 137);
+    }
+    100%{
+        color: #436947;
+    }
+}

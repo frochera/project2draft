@@ -75,4 +75,12 @@ $(document).ready(function(){
     $("#therm1").show();
   });
 
+  $("#title-text").click(function(){
+    $("#title-text").addClass("animate-text");
+
+    setTimeout(function(){
+      $("#title-text").removeClass("animate-text");
+    },2000);
+  });
+
 });
